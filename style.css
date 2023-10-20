@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+
+@layer components{
+.btn {
+    @apply text-black bg-blue-400 rounded-xl px-2 py-1 text-sm
+}
+}
+@tailwind utilities;
